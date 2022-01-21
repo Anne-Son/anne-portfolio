@@ -4,6 +4,22 @@ import { FaAngleDoubleRight } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 
+const query = graphql`
+  {
+    allStrapiApiJobs(sort: {fields: id, order: DESC}) {
+      nodes {
+        data {
+          attributes {
+            company
+            date
+            position
+          }
+        }
+      }
+    }
+  }
+`
+
 const Jobs = () => {
   return <h2>jobs component</h2>
 }
