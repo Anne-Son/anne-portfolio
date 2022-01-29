@@ -1,11 +1,14 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { graphql } from "gatsby"
 import Projects from "../components/Projects"
-// ...GatsbyImageSharpFluid
+import data from "../constants/projects"
 
 const ProjectsPage = () => {
-  return <h2>projects page</h2>
+  return <Layout>
+    <section className="projects-page">
+      <Projects projects={data} title="all projects"/>
+    </section>
+  </Layout>
 }
 
 export default ProjectsPage

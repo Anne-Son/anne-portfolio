@@ -6,7 +6,13 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import data from "../constants/projects"
+
 export default () => {
-  return <h2>index page</h2>
+  return <Layout>
+    <Hero />
+    <Services />
+    <Projects projects={data} title="featured projects" showLink featured/>
+  </Layout>
 }
 // ...GatsbyImageSharpFluid
