@@ -2,12 +2,12 @@ import React from "react"
 import logo from "../assets/annesonLogoBlack.png"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
-const Navbar = () => {
-  return <nav className="navbar">
-    <div className="nav-center">
+const Navbar = ({toggleSidebar}) => {
+  return <nav className="navbar" >
+    <div className="nav-center" name="navbar">
       <div className="nav-header">
         <img src={logo} alt="logo" className="logo"/>
-        <button type="button" className="toggle-btn">
+        <button type="button" className="toggle-btn" onClick={toggleSidebar}>
           <FaAlignRight></FaAlignRight>
         </button>
         </div>

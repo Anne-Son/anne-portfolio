@@ -1,4 +1,3 @@
-import React from "react"
 import roseGif from '../assets/roseApp.gif';
 import doctorPocket from '../assets/doctorPocket.gif';
 import uni from '../assets/UUWPcompuCell.png';

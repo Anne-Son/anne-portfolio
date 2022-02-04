@@ -335,10 +335,10 @@ Sidebar
   position: absolute;
   right: 4.75%;
   top: 2.75%;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-red-dark);
+  color: var(--clr-grey-3);
   cursor: pointer;
 }
 @media screen and (min-width: 992px) {
@@ -840,17 +840,17 @@ Footer
 ===============
 */
 .footer {
-  height: 9rem;
-  background: #222;
+  height: 12rem;
+  background: rgb(54, 53, 53);
   text-align: center;
   display: grid;
   place-items: center;
 }
 .footer h4 {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   color: var(--clr-white);
   font-weight: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .footer h4 span {
   color: var(--clr-primary-5);
@@ -907,7 +907,8 @@ About Page
 }
 .about-img {
   margin-bottom: 2rem;
-  height: 25rem;
+  /* height: 25rem; */
+  width: 25rem;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
