@@ -34,7 +34,7 @@ export default [
     title: 'Orthé graphic design materials',
     description: `I was part of the opening team for a dental office, called Orthé. I became versed in several fields of communication technology to help the business grow and I apply these methods proficiently. I learned how to build a website in Squarespace, edit photos in Photoshop, create logos and design graphic materials for the workspace. `,
     info2: 'Squarespace, Photoshop, Illustrator, HTML5, CSS3',
-    url: 'https://www.graphic.anneson.com/',
+    url: 'https://graphic-design-anneson.netlify.app/',
     repo: '', 
   },
   {
