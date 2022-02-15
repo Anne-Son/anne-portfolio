@@ -3,6 +3,7 @@ import doctorPocket from '../assets/doctorPocket.gif';
 import uni from '../assets/UUWPcompuCell.png';
 import gap from '../assets/gap.png';
 import graphic from '../assets/graphic-design.jpg';
+import tictactoe from '../assets/tic.png';
 export default [
   {
     id: 1,
@@ -15,15 +16,15 @@ export default [
     url: 'https://www.uni.anneson.com/',
     repo: '', 
   },
-  {
+   {
     id: 2,
-    img: gap,
-    featured: false,
-    category: 'Email Development',
-    title: 'Transactional HTML Email',
-    description: `I duplicate an email from GAP that I have received and I converted it into a Transactional HTML Email `,
-    info2: 'Javascript, HMTL5, CSS3, email on acid, Illustrator',
-    url: 'https://www.transactionalemail.anneson.com/',
+    img: tictactoe,
+    featured: true,
+    category: 'Web Development',
+    title: 'TicTacToe Javascript game',
+    description: `A JavaScript game developed using Vanilla Js, HTML5 and CSS3. Image created with Adobe Illustrator`,
+    info2: 'Javascript, HMTL5, CSS3, Illustrator',
+    url: 'http://tictactoe.anneson.com/',
     repo: '', 
   },
   {
@@ -34,7 +35,7 @@ export default [
     title: 'Orthé graphic design materials',
     description: `I was part of the opening team for a dental office, called Orthé. I became versed in several fields of communication technology to help the business grow and I apply these methods proficiently. I learned how to build a website in Squarespace, edit photos in Photoshop, create logos and design graphic materials for the workspace. `,
     info2: 'Squarespace, Photoshop, Illustrator, HTML5, CSS3',
-    url: 'https://graphic-design-anneson.netlify.app/',
+    url: 'https://www.graphic.anneson.com/',
     repo: '', 
   },
   {
@@ -52,7 +53,7 @@ export default [
   {
     id: 5,
     img: roseGif,
-    featured: true,
+    featured: false,
     category: 'Software Development',
     title: 'Rose Purchase Management App',
     description: `My role in this project was Team leader. As a team leader I organized the meetings, 
@@ -62,5 +63,16 @@ export default [
     info2: 'C#, ado.net, Entity Framework 6, SQL as database and Source Control Git',
     url: '',
     repo: 'https://github.com/Anne-Son/RosePurchaseManagementApp', 
+  },
+   {
+    id: 6,
+    img: gap,
+    featured: false,
+    category: 'Email Development',
+    title: 'Transactional HTML Email',
+    description: `I duplicate an email from GAP that I have received and I converted it into a Transactional HTML Email `,
+    info2: 'Javascript, HTML5, CSS3, email on acid, Illustrator',
+    url: 'https://www.transactionalemail.anneson.com/',
+    repo: 'https://github.com/Anne-Son/TitcTacToe', 
   },
 ]

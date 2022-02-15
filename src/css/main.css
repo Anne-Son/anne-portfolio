@@ -745,7 +745,7 @@ Projects
     box-shadow: var(--dark-shadow);
 
     z-index: 1;
-    grid-column: 5 /12;
+    grid-column: 7 /13;
     grid-row: 1 / 1;
   }
   .project:nth-of-type(even) .project-img {
@@ -753,7 +753,7 @@ Projects
     grid-row: 1 / 1;
   }
   .project:nth-of-type(even) .project-info {
-    grid-column: 2 / span 7;
+    grid-column: 1 / span 6;
     grid-row: 1 / 1;
     text-align: left;
   }
