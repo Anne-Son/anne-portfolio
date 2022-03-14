@@ -1,9 +1,13 @@
+import React from 'react';
+import { Link } from 'gatsby';
 import roseGif from '../assets/roseApp.gif';
 import doctorPocket from '../assets/doctorPocket.gif';
 import uni from '../assets/UUWPcompuCell.png';
 import gap from '../assets/gap.png';
 import graphic from '../assets/graphic-design.jpg';
 import tictactoe from '../assets/tic.png';
+import landing from '../assets/landingPage.png';
+import menu from '../assets/menu-react.png';
 export default [
   {
     id: 1,
@@ -29,6 +33,28 @@ export default [
   },
   {
     id: 3,
+    img: landing,
+    featured: true,
+    category: 'Web development',
+    title: 'Landing page from Photoshop design',
+    description: `Fully responsive Landing page developed in Wordpress from a PSD file. To see the PSD file click on logo inside the landing page`,
+    info2: 'Wordpress, Elementor, CSS3, Photoshop',
+    url: 'http://www.psdtowp.anneson.com/',
+    repo: '', 
+  },
+  {
+    id: 4,
+    img: menu,
+    featured: true,
+    category: 'Web Development',
+    title: 'Menu',
+    description: `Project developed with React.js that filters menu items with buttons. Buttons were added dynamically `,
+    info2: 'React, CSS3',
+    url: 'https://www.menu.anneson.com/',
+    repo: 'https://github.com/Anne-Son/menu-react', 
+  },
+   {
+    id: 5,
     img: graphic,
     featured: false,
     category: 'Graphic Design',
@@ -39,7 +65,7 @@ export default [
     repo: '', 
   },
   {
-    id: 4,
+    id: 6,
     img: doctorPocket,
     featured: true,
     category: 'Software Development',
@@ -51,7 +77,7 @@ export default [
     repo: 'https://github.com/Anne-Son/PocketDoctor', 
   },
   {
-    id: 5,
+    id: 7,
     img: roseGif,
     featured: false,
     category: 'Software Development',
@@ -65,7 +91,7 @@ export default [
     repo: 'https://github.com/Anne-Son/RosePurchaseManagementApp', 
   },
    {
-    id: 6,
+    id: 8,
     img: gap,
     featured: false,
     category: 'Email Development',
