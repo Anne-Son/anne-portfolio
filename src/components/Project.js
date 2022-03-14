@@ -6,7 +6,7 @@ const Project = ({description,title,repo,url,info2,img,index}) => {
   return <article className="project">
     <img cl src={img} className="project-img"/>
     <div className="project-info">
-      <span className="project-number">0{index+1}</span>
+      <span className="project-number"></span>
       <h3>{title}</h3>
       <p className="project-desc">{description}</p>
       <div className="project-stack"><span>{info2}</span></div>
