@@ -1,9 +1,6 @@
 ## Setup Notes
 
-1. All components ready to go (including imports)
-2. Use main.css - less imports
-3. Limit amount of components - better overview
-4. React Icons
+ React Icons
 
 [react icons] https://react-icons.github.io/react-icons/
 
@@ -14,9 +11,9 @@ const Component = () => {
 }
 ```
 
-5. Use constants to avoid repetition.
+ Use constants to avoid repetition.
 
-6. Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
+ Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
 
 ```javascript
 {
