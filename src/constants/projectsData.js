@@ -67,7 +67,7 @@ export default [
   {
     id: 6,
     img: doctorPocket,
-    featured: true,
+    featured: false,
     category: 'Software Development',
     title: 'DoctorPocket',
     description: `Android Application to find available doctors in your area and book an appointment. In this project I wrote the code for signing up, 

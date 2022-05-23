@@ -3,15 +3,15 @@ import React from "react"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 
 
-const Project = ({description,title,repo,url,info2,img,index}) => {
+const ProjectSlider = ({description,title,repo,url,info2,img,index, position}) => {
   
+
   return (
   <>
-  <article className="project">
-    <img cl src={img} className="project-img"/>
-    <div className="project-info">
-      <span className="project-number"></span>
-      <h3>{title}</h3>
+  <article className={`article-slider ${position}`}>
+    <img src={img}/>
+    <div>
+      <h4>{title}</h4>
       <p className="project-desc">{description}</p>
       <div className="project-stack"><span>{info2}</span></div>
       <div className="project-links">
@@ -30,4 +30,4 @@ const Project = ({description,title,repo,url,info2,img,index}) => {
 
 //Project.propTypes = {}
 
-export default Project
+export default ProjectSlider

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Projects from "../components/Projects"
-import data from "../constants/projects"
+import data from "../constants/projectsData"
 
 const ProjectsPage = () => {
   return <Layout>
