@@ -8,9 +8,23 @@ import graphic from '../assets/graphic-design.jpg';
 import tictactoe from '../assets/tic.png';
 import landing from '../assets/landingPage.png';
 import menu from '../assets/menu-react.png';
+import vecchia from '../assets/lavecchia.png';
+
 export default [
   {
     id: 1,
+    img: vecchia,
+    featured: true,
+    category: 'Web Development',
+    title: 'Restaurant site',
+    description: `A  multisite WordPress website created using elementor pro, and plugins. Created templates and updating content. Made website responsive. Created navigation menus and helped with the design, 
+    Ensured the website is backed up.`,
+    info2: 'Wordpress, Custom CSS3, elementor',
+    url: 'https://lavecchia.ca/',
+    repo: '', 
+  }, 
+  {
+    id: 2,
     img: uni,
     featured: true,
     category: 'Web Development',
@@ -21,7 +35,7 @@ export default [
     repo: '', 
   },
    {
-    id: 2,
+    id: 3,
     img: tictactoe,
     featured: true,
     category: 'Web Development',
@@ -32,7 +46,7 @@ export default [
     repo: '', 
   },
   {
-    id: 3,
+    id: 4,
     img: landing,
     featured: true,
     category: 'Web development',
@@ -43,7 +57,7 @@ export default [
     repo: '', 
   },
   {
-    id: 4,
+    id: 5,
     img: menu,
     featured: true,
     category: 'Web Development',
@@ -54,7 +68,7 @@ export default [
     repo: 'https://github.com/Anne-Son/menu-react', 
   },
    {
-    id: 5,
+    id: 6,
     img: graphic,
     featured: false,
     category: 'Graphic Design',
@@ -65,7 +79,7 @@ export default [
     repo: '', 
   },
   {
-    id: 6,
+    id: 7,
     img: doctorPocket,
     featured: false,
     category: 'Software Development',
@@ -77,7 +91,7 @@ export default [
     repo: 'https://github.com/Anne-Son/PocketDoctor', 
   },
   {
-    id: 7,
+    id: 8,
     img: roseGif,
     featured: false,
     category: 'Software Development',
@@ -91,7 +105,7 @@ export default [
     repo: 'https://github.com/Anne-Son/RosePurchaseManagementApp', 
   },
    {
-    id: 8,
+    id: 9,
     img: gap,
     featured: false,
     category: 'Email Development',
